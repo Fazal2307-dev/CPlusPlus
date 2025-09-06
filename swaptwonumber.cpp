@@ -7,5 +7,5 @@ cin>>a>>b;
 temp=a;
 a=b;
 b=temp;
-cout<<"After swap of a and b:"<<a<<" "<<b; 
+cout<<"After swap of a and b:"<<a<<" "<<b << endl; 
 }

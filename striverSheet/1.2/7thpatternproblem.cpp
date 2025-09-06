@@ -4,8 +4,8 @@ int main(){
     int n;
     cout<<"Enter value of n:\n";
     cin>>n;
-    for(int i=1;i<=n;i++){
-        for(int s = 1; s <= n - i; s++){
+    for(int i=n;i>=1;i--){
+        for(int s = n-i; s >=1; s--){
             cout << "  ";
         }
         for(int j=1;j<=2*i-1;j++){

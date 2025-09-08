@@ -5,7 +5,7 @@ int main(){
     int height;
     cout<<"Enter value of n,and height:\n";
     cin>>n>>height;
-    i cylinder = (3.14*n*n*height);
+    float cylinder = (3.14*n*n*height);
     cout<<cylinder;
     return 0;
 }

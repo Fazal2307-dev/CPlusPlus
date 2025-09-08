@@ -4,7 +4,7 @@ int main(){
     int n;
     cout<<"Enter value of n:\n";
     cin>>n;
-    int sphere= (n*n*n);
-    cout<<sphere;
+    int cube= (n*n*n);
+    cout<<cube;
     return 0;
 }

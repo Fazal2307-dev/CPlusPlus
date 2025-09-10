@@ -8,7 +8,7 @@ int main(){
     if(amount>=5000){
         
         cout<<"Your net amount before discount:"<<amount;
-        discount= amount-((amount)*(0.2));
+        discount= amount -amount*20/100;
         cout<<"\nYour net amount after 20percent discount:"<<discount;
     }else if(amount>=2000 && amount<5000){
         cout<<"your net amount before discount:"<<amount;

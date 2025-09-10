@@ -5,6 +5,9 @@ int main(){
 
     day d;
     d = sat;
+    day t;
+    t=tue;
     cout<<d<<endl;
+    cout<<t<<endl;
     return 0;
 }

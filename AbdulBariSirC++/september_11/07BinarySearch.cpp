@@ -19,7 +19,7 @@ int main(){
             l=mid-1;
         }
     }
-    cout<<"Not found in array:"<<endl;
+    cout<<" array Not found in array:"<<endl;
     return 0;
 
 }

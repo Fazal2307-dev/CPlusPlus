@@ -1,7 +1,9 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int a[5]={1,2,5,8,9};
-    cout<<a[0]<<" " <<a[1]<<" "<<a[2]<<" "<<a[3]<<" "<<a[4]<<endl;
+    int a[5]={};
+    for(int i=0;i<5;i++){
+        cout<<a[i]<<endl;
+    }
     return 0;
 }

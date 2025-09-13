@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/mdfaz/Desktop/CPlusPlus",
-      "program": "c:/Users/mdfaz/Desktop/CPlusPlus/build/Debug/outDebug",
+      "cwd": "c:/Users/mdfaz/Desktop/CPlusPlus/AbdulBariSirC++/september_13",
+      "program": "c:/Users/mdfaz/Desktop/CPlusPlus/AbdulBariSirC++/september_13/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

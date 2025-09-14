@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "C/C++ Debug (Current File)",
+      "name": "Debug C++ (Current File)",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
@@ -11,7 +11,7 @@
       "cwd": "${fileDirname}",
       "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "miDebuggerPath": "C:/mingw64/bin/gdb.exe",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
@@ -22,7 +22,7 @@
       "preLaunchTask": "C/C++: g++.exe build active file"
     },
     {
-      "name": "C/C++ Run (Current File)",
+      "name": "Run C++ (Current File)",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
@@ -31,7 +31,7 @@
       "cwd": "${fileDirname}",
       "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb"
+      "miDebuggerPath": "C:/mingw64/bin/gdb.exe"
     },
     {
       "name": "C/C++ Runner: Debug Session",
@@ -43,7 +43,7 @@
       "cwd": "c:/Users/mdfaz/Desktop/CPlusPlus/AbdulBariSirC++/september_14",
       "program": "c:/Users/mdfaz/Desktop/CPlusPlus/AbdulBariSirC++/september_14/build/Debug/outDebug",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "miDebuggerPath": "C:/mingw64/bin/gdb.exe",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",

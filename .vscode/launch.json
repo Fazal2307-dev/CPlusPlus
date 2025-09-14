@@ -2,14 +2,46 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "C/C++ Debug (Current File)",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "${fileDirname}",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: g++.exe build active file"
+    },
+    {
+      "name": "C/C++ Run (Current File)",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "${fileDirname}",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/mdfaz/Desktop/CPlusPlus/AbdulBariSirC++/september_13",
-      "program": "c:/Users/mdfaz/Desktop/CPlusPlus/AbdulBariSirC++/september_13/build/Debug/outDebug",
+      "cwd": "c:/Users/mdfaz/Desktop/CPlusPlus/AbdulBariSirC++/september_14",
+      "program": "c:/Users/mdfaz/Desktop/CPlusPlus/AbdulBariSirC++/september_14/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

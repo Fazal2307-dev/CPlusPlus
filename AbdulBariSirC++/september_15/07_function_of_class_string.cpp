@@ -7,5 +7,6 @@ int main(){
     getline(cin,str);
     cout<<str.length()<<endl;
     cout<<str.size()<<endl;
+    cout<<str.capacity()<<endl;
     return 0;
 }

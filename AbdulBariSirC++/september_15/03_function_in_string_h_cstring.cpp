@@ -8,13 +8,17 @@ int main(){
 // cout<<"Lenght "<<strlen(s)<<endl;
 char s1[20]="Good";
 char s2[20]="Morining";
-strcat(s1,s2);
-cout<<s1<<endl;
-cout<<s2<<endl;
-char s[10]="Fazal";
-char t[10]="Anjum";
-strncat(s,t,4);
-cout<<s<<endl;
+char s3[10]="";
+// strcat(s1,s2);
+// cout<<s1<<endl;
+// cout<<s2<<endl;
+// char s[10]="Fazal";
+// char t[10]="Anjum";
+// strncat(s,t,4);
+// strcpy
+// cout<<strcpy(s3,s2)<<endl;
+cout<<strncpy(s3,s2,3)<<endl;
+// cout<<s<<endl;
 
 
 return 0;

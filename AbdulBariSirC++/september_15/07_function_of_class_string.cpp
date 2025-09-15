@@ -6,5 +6,6 @@ int main(){
     cout<<"Enter value of str:";
     getline(cin,str);
     cout<<str.length()<<endl;
+    cout<<str.size()<<endl;
     return 0;
 }

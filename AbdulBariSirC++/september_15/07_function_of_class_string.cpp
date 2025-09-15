@@ -10,5 +10,10 @@ int main(){
     cout<<str.capacity()<<endl;
     // cout<<str.resize()<<endl;
     cout<<str.max_size()<<endl;
+    // cout << str.clear()<<endl;
+    if(str.empty())
+    cout<<"String is empty"<<endl;
+    else 
+    cout<<"String is not empty"<<endl;
     return 0;
 }

@@ -8,5 +8,7 @@ int main(){
     cout<<str.length()<<endl;
     cout<<str.size()<<endl;
     cout<<str.capacity()<<endl;
+    // cout<<str.resize()<<endl;
+    cout<<str.max_size()<<endl;
     return 0;
 }

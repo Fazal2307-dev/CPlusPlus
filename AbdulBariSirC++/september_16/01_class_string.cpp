@@ -21,8 +21,12 @@ int main(){
 
 //s.erase()
 //s.push_back()
-string str="Fazal";
-str.push_back('z');
+// string str="Fazal";
+// str.push_back('z');
+// cout<<str<<endl;
+//s.pop_back()
+string str ="Fazal";
+str.pop_back();
 cout<<str<<endl;
 
 

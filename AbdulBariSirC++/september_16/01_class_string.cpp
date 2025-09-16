@@ -25,9 +25,16 @@ int main(){
 // str.push_back('z');
 // cout<<str<<endl;
 //s.pop_back()
-string str ="Fazal";
-str.pop_back();
-cout<<str<<endl;
+// string str ="Fazal";
+// str.pop_back();
+// cout<<str<<endl;
+
+//si.swap(s2)
+
+string str="Fazal";
+string str2="Afzal";
+str.swap(str2);
+cout<<str<<str2<<endl;
 
 
 

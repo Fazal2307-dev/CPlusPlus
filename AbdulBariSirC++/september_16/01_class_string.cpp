@@ -19,6 +19,11 @@ int main(){
 // str.replace(3,4,"KK");
 // cout<<str<<endl;
 
+//s.erase()
+//s.push_back()
+string str="Fazal";
+str.push_back('z');
+cout<<str<<endl;
 
 
 

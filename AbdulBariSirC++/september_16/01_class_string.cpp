@@ -8,12 +8,16 @@ int main(){
     // string str2="world";
     // str.append(str2);
     // cout<<str<<endl;
+
     // //s.insert()
-    string str="Programming";
-    str.insert(3,"Fazal");
-    cout<<str<<endl;
+    // string str="Programming";
+    // str.insert(3,"Fazal");
+    // cout<<str<<endl;
 
-
+    //s.replace()
+// string str="Programming";
+// str.replace(3,4,"KK");
+// cout<<str<<endl;
 
 
 

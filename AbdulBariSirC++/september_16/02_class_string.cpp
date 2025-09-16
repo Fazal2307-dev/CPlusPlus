@@ -9,11 +9,16 @@ int main(){
 // cout<<s<<endl;
 
 //s.find()
-string str ="how are you";
-str.find("are");
-str.rfind('o');
-cout<<str<<endl;
-cout<<str<<endl;
+// string str ="how are you";
+// str.find("are");
+// str.rfind('o');
+// cout<<str<<endl;
+// cout<<str<<endl
+
+// s.substr()
+string str="programming";
+string f =str.substr(3);
+cout<<f<<endl;
 
 
 

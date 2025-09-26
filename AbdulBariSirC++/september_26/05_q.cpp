@@ -7,18 +7,36 @@
 // Output Format
 // For each test case, display the sum of first and last digits of N in a new line.
 
-#include<iostream>
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int T,N;
+//     cin>>T;
+//     for(int i=0;i<T;i++){
+//         cin>>N;
+//         int rem=N%10;
+//         while(N>9){
+//             N=N/10;
+//         }
+//         cout<<N+rem<<endl;
+//     }
+//     return 0;
+// }
+
+#include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int T,N;
-    cin>>T;
-    for(int i=0;i<T;i++){
-        cin>>N;
-        int rem=N%10;
-        while(N>9){
-            N=N/10;
+    int t;
+    cin>>t;
+    while(t--){
+        int n;
+        cin>>n;
+        int a[n];
+        for(int i=0;i<n;i++){
+            cin>>a[i];
         }
-        cout<<N+rem<<endl;
+        int sum= a[0]+a[n-1];
+        cout<<sum<<endl;
     }
     return 0;
 }

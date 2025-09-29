@@ -23,21 +23,16 @@
 // For each input, output YES if Om can buy the laptop and NO otherwise.
 
 // You may print each character in uppercase or lowercase. For example YES, Yes, yes, and yES are all considered the same.
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
-int t=1;
- while(t--){
-        int a, b, c;
-        cin >> a >> b >> c;
-            
-        if(a + c >= b)           
-            cout << "YES" << endl;
-        else
-            cout << "NO" << endl;
-    }
-
-    return 0;
-
+	// your code goes here
+	int x,n,m;
+	cin>>x>>n>>m;
+	if((x+m)>=n)
+	cout<<"YES"<<endl;
+	else
+	cout<<"NO"<<endl;
+	return 0;
 }
